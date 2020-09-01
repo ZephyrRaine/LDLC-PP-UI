@@ -146,7 +146,7 @@ MonoBehaviour:
     m_Top: 10
     m_Bottom: 0
   m_ChildAlignment: 1
-  m_Spacing: 71.16
+  m_Spacing: 114.8
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 0
   m_ChildControlWidth: 1
@@ -408,7 +408,7 @@ MonoBehaviour:
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 0
-  m_Spacing: 11.7
+  m_Spacing: 9.1
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 0
   m_ChildControlWidth: 1
@@ -699,12 +699,12 @@ PrefabInstance:
     - target: {fileID: 813435456050922598, guid: de6a9d2786795e245b364f2360231c8d,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 5
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 813435456050922598, guid: de6a9d2786795e245b364f2360231c8d,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 813435456050922598, guid: de6a9d2786795e245b364f2360231c8d,
         type: 3}
@@ -720,6 +720,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_firstOverflowCharacterIndex
       value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 813435456050922598, guid: de6a9d2786795e245b364f2360231c8d,
+        type: 3}
+      propertyPath: m_text
+      value: Mot de passe
+      objectReference: {fileID: 0}
+    - target: {fileID: 813435456050922598, guid: de6a9d2786795e245b364f2360231c8d,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 813435456419865176, guid: de6a9d2786795e245b364f2360231c8d,
         type: 3}
@@ -750,6 +760,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Material
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 813435456419865179, guid: de6a9d2786795e245b364f2360231c8d,
+        type: 3}
+      propertyPath: m_ContentType
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 813435456419865179, guid: de6a9d2786795e245b364f2360231c8d,
+        type: 3}
+      propertyPath: m_InputType
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 813435456426055146, guid: de6a9d2786795e245b364f2360231c8d,
         type: 3}
@@ -910,6 +930,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_textInfo.lineCount
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 813435456050922598, guid: de6a9d2786795e245b364f2360231c8d,
+        type: 3}
+      propertyPath: m_text
+      value: Email
+      objectReference: {fileID: 0}
+    - target: {fileID: 813435456050922598, guid: de6a9d2786795e245b364f2360231c8d,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 813435456419865176, guid: de6a9d2786795e245b364f2360231c8d,
         type: 3}
@@ -1201,6 +1231,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bouton
       objectReference: {fileID: 0}
+    - target: {fileID: 7307429850623771498, guid: 244cd3f2e6821ee48835e590e3a3a663,
+        type: 3}
+      propertyPath: panelPrefab
+      value: 
+      objectReference: {fileID: 4687516226291623002, guid: 1aecbdf3a4e043a4caf42be340b87e90,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 244cd3f2e6821ee48835e590e3a3a663, type: 3}
 --- !u!224 &1696685513661461042 stripped
